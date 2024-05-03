@@ -14,4 +14,18 @@ The project involves 4 main sets of experiments.
 - Linear Principal Component Analysis (PCA n=2) followed by time series forecasting.
 - Non-linear Autoencoder followed by time series forecasting.
 - PCA n=3 followed by time series forecasting.
-Note that in each sets of experiments, the resulting data from the dimensionality reduction method is used to train 3 different deep learning architectures: RNN, LSTM, GRU. The network structure of each cell can be seen here: ![alt text](https://github.com/haidiazaman/dsa5206-project/blob/main/imgs/Network-Structure-of-RNN-LSTM-and-GRU%20(1).png)
+Note that in each sets of experiments, the resulting data from the dimensionality reduction method is used to train 3 different deep learning architectures: RNN, LSTM, GRU. The network structure of each cell can be seen here:
+
+![alt text](https://github.com/haidiazaman/dsa5206-project/blob/main/imgs/Network-Structure-of-RNN-LSTM-and-GRU%20(1).png)
+
+# PCA plot example
+THe figure here depicts the scatter plot of the original dataset projected onto the first two principal components. Notably, the first component of the PCA reveals a substantial amount of variance, evidenced by a clear colour gradient from left
+to right along the horizontal axis of the first principal component. This gradient corresponds to the range of target values within the dataset, with brighter colors transitioning to darker shades. Such a gradient shows that the two principal
+components effectively capture the variance inherent in the dataset.
+
+![alt text](https://github.com/haidiazaman/dsa5206-project/blob/main/imgs/PCA.png)
+
+# Non-linear autoencoders
+2 non-linear autoencoders were setup and trained: FCN and LSTM autoencoder. The architecture of the LSTM autoencoder can be seen here.
+
+![alt text](https://github.com/haidiazaman/dsa5206-project/blob/main/imgs/lstm_autoencoder.drawio%20(1)%20(1).png)
